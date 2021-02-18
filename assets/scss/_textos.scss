@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+$fonth1: 'Black Han Sans', sans-serif;
+$fonth2c: celeste;
+
+h1 {
+    font-family: $fonth1;
+    text-transform: capitalize;
+    @if $fonth2c == celeste {
+        color: #219ebc;
+    }
+    @else if color == azul {
+        color: blue;
+    }
+    @else {
+        color: black;
+    }
+}
+
+h2 {
+    font-family: $fonth1;
+    text-transform: capitalize;
+    color:#219ebc;
+}
