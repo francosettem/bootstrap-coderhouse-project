@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-$fonth1: 'Black Han Sans', sans-serif;
+$fonth1: 'Roboto', sans-serif;
 $fonth2c: celeste;
 
 h1 {
-    font-family: $fonth1;
     text-transform: capitalize;
     @if $fonth2c == celeste {
-        color: #219ebc;
+        color: #1266F1;
     }
     @else if color == azul {
         color: blue;
@@ -20,5 +19,5 @@ h1 {
 h2 {
     font-family: $fonth1;
     text-transform: capitalize;
-    color:#219ebc;
+    color:#1266F1;
 }

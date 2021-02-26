@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/sass.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Bit Importaciones</title>
 </head>
@@ -38,15 +39,33 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i.pinimg.com/originals/fb/28/89/fb288999470d96788fa87cba269c2881.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  animate__animated animate__backInDown">
+          <h3>Tenemos lo ultimo en tecnología</h3>
+          <p>Consultá nuestros productos más populares</p>
+        </div>
+        <img src="https://voyager.nz/images/uploads/gaming-broadband.jpg" class="imagen1 w-100" alt="...">
+        <!-- SM AND MD IMAGE -->
+        <img src="https://icdn2.digitaltrends.com/image/digitaltrends_es/pc-jugar-en-casa-feat.jpg" class="imagen2 w-100" alt="...">
       </div>
 
       <div class="carousel-item">
-        <img src="https://www.startus.cc/sites/default/files/styles/company_profile_cover/public/ems_imports_llc_transportation.jpg?itok=7z7PlQNw" class="d-block w-100" alt="...">
+        <div class="carousel-caption animate__animated animate__backInRight">
+          <h3>Productos de todo el mundo</h3>
+          <p>Somos importadores por stock o a pedido.</p>
+        </div>
+        <img src="https://i.pinimg.com/originals/e5/be/a4/e5bea4324b54c67f9cd254e3fd57cc94.jpg" class="imagen1 w-100" alt="...">
+          <!-- SM AND MD IMAGE -->
+          <img src="https://londonmymind.com/wp-content/uploads/2018/11/London-Packing-List-Hero.jpeg" class="imagen2 w-100" alt="...">
       </div>
 
       <div class="carousel-item">
-        <img src="https://www.omgfreehost.com/wp-content/uploads/2020/10/best-240hz-gaming-monitor-1-1500x500.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption animate__animated animate__backInUp">
+          <h3>Tu pedido en menos de 2 semanas</h3>
+          <p>Garantizado o te devolvemos tu dinero.</p>
+        </div>
+        <img src="https://www.supplychain247.com/images/article/logistyx_amazon_intelligence_0519wide.jpg" class="imagen1 w-100" alt="...">
+        <!-- SM AND MD IMAGE -->
+        <img src="https://images.hgmsites.net/hug/all-electric-fedex-parcel-delivery-truck-modec-design-built-by-navistar_100310061_h.jpg" class="imagen2 w-100" alt="...">
       </div>
     </div>
 
@@ -63,9 +82,9 @@
 
 <!-- QUIENES SOMOS -->
 
-  <div class="container py-5 ">
+  <div class="container py-5 animate__animated animate__backInLeft">
     <article>
-      <h2 class="text-center">Quienes somos</h2>
+      <h2 class="text-center pb-2">Quienes somos</h2>
         <div class="container">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lorem enim, rutrum ut elit non, hendrerit aliquam nisl.
             Nam tincidunt purus id sagittis ultricies. 
@@ -82,6 +101,7 @@
 
 <!-- PREGUNTAS FRECUENTES -->
 
+<div data-aos="zoom-in">
   <section class="pb-5 preguntas">
     <div class="accordion col-12" id="accordionExample">
       <div class="card">
@@ -124,10 +144,12 @@
       </div>
     </div>
   </section>
+</div>
 
 <!-- PRODUCTOS -->
 
-  <aside class="product-bg py-5">
+<div data-aos="fade-up">
+  <aside class="product-bg">
     <div class="bg-color text-center">
       <div class="container">
         <h2 class="py-5 text-white">Algunos de nuestros productos</h2>
@@ -141,13 +163,14 @@
       </div>
     </div>
   </aside>
+</div>
 
 <!-- CONTACTANOS -->
 
   <section class="py-5">
     <div class="container">
       <div  class="social">
-        <h2 class="text-center py-2">Redes Sociales</h2>
+        <h2 class="text-center py-2">Nuestras Redes Sociales</h2>
           <div class="social__icons">
             <i class="bi bi-facebook"></i>
             <i class="bi bi-twitter"></i>
@@ -172,6 +195,9 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
