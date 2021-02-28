@@ -1,24 +1,18 @@
+@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-h1 {
-  text-transform: capitalize;
-  color: #1266F1;
-}
-
 h2 {
   font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  color: #1266F1;
 }
 
-/* IMAGENES */
+/* Altura máxima de imagenes en escritorio */
 @media (min-width: 1200px) {
   img {
     max-height: 500px;
   }
 }
 
-/* CAROUSEL */
+/* Carousel adaptable */
 .imagen2 {
   display: none;
 }
@@ -51,33 +45,62 @@ h2 {
 }
 
 /* Redes sociales */
-.social {
-  padding: 1%;
-}
-
-.social .social__icons {
+.social__icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social .social__icons i {
+.social__icons i {
   font-size: 5rem;
   padding-left: 5%;
   padding-right: 5%;
 }
 
-/* FOOTER */
-.footer {
-  border-top: 1px solid grey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1%;
+/* Footer */
+footer .footer__social i {
+  padding-left: 30px;
 }
 
-.footer .footer__social i {
-  padding-left: 15px;
+/* Estilizado de blockquotes en quienes somos */
+blockquote {
+  font-size: 1.4em;
+  width: 90%;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #1266F1;
+  border-right: 8px solid #1266F1;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
+  border-radius: 25px 0 25px 0;
+}
+
+@media (max-width: 768px) {
+  blockquote {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: #1266F1;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote::after {
+  content: '';
+}
+
+/* Faq video */
+#myVideo {
+  position: relative;
+  width: 100%;
 }
 /*# sourceMappingURL=sass.css.map */

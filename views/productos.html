@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Bit Importaciones - Productos</title>
 </head>
 
@@ -18,7 +19,7 @@
     <!-- NAVBAR -->
     
     <nav class="navbar navbar-dark bg-dark navbar-collapse navbar-expand-lg">
-        <a class="navbar-brand animate__bounceIn" href="#">Bit Importaciones</a>
+        <a class="navbar-brand animate__bounceIn" href="../index.html">Bit Importaciones</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,41 +36,222 @@
     </nav>
 
     <!-- BANNER -->
-
-    <img src="../images/views-img/store.jpg" alt="Nuestros productos" class="w-100 d-block">
-
+    <div class="carousel-inner">
+      <img src="../images/views-img/store.jpg" alt="Nuestros productos" class="w-100 imagen1">
+      <img src="../images/views-img/store2.jpg" alt="Nuestros productos" class="w-100 imagen2">
+      <!-- TEXTO SUPERPUESTO -->
+        <div class="carousel-caption animate__animated animate__backInDown">
+          <h3 class="display-4">Productos</h3>
+        </div>
+    </div>
 
     <!-- PRODUCTOS / GALERÍA -->
+    
+ <section >
 
-    <h1 class="text-center py-5 animate__fadeIn">Productos destacados</h1>
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-center">
-            <img src="https://i.picsum.photos/id/994/200/200.jpg?hmac=a0dwH_eftBXVmeonrMy5xNmGDPwiXgXrzUjjUQLEtR8" class="img-thumbnail m-5 " alt="...">
-            <img src="https://i.picsum.photos/id/565/200/200.jpg?hmac=QvKo8qgzFFNcZoXCpT0CNMDTwWd3ynwqLXxrzK2o8fw" class="img-thumbnail m-5" alt="...">
-            <img src="https://i.picsum.photos/id/724/200/200.jpg?hmac=sUKRpiwXopeRQ36cEVnZgrG3Wd73G8iet9dfVSvmi8k" class="img-thumbnail m-5" alt="...">
-            <img src="https://i.picsum.photos/id/504/200/200.jpg?hmac=uNktbiKQMUD0MuwgQUxt7R2zjHBGFxyUSG3prhX0FWM" class="img-thumbnail m-5" alt="...">
-            <img src="https://i.picsum.photos/id/1002/200/200.jpg?hmac=Tf8HIQ9ThNr5_OQwJQuQXmZ4JysJ2pdFOx0bjdHTc-g" class="img-thumbnail m-5" alt="...">
-            <img src="https://i.picsum.photos/id/49/200/200.jpg?hmac=w2wY6ewoLUCpaqq77gzCIdeKq2xKmTkssFtL_4K34H0" class="img-thumbnail m-5" alt="...">
+  <h2 class="text-white text-center py-5 bg-dark w-100">Lo más vendido</h2>
+
+    <div data-aos="zoom-in">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center">
+
+      <!-- PRODUCTO 1 -->
+
+          <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/featured-product1.jpg" alt="PS4">
+              <div class="card-body">
+                <h5 class="card-title">Playstation 4 Slim DualShock Version</h5>
+                <p class="card-text">
+                La PS4 Slim es una PlayStation 4 con la misma potencia, menor tamaño, mayor eficiencia energética y menos ruidosa.
+                Playstation 4 Slim también cuenta con el estreno del nuevo DualShock 4.</p>
+                <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+          </div>
+       
+    
+        <!-- PRODUCTO 2 -->
+          <div class="card m-3" style="width: 18rem;">
+          <img class="card-img-top" src="../images/products/ryzen5.jpg" alt="Ryzen 5">
+            <div class="card-body">
+              <h5 class="card-title">Procesador Ryzen 5 3600</h5>
+              <p class="card-text">Los procesadores AMD Ryzen™ de 3ª generación se diseñaron para superar todas las expectativas y marcar un nuevo camino en materia de procesadores de alto rendimiento.                    </p>
+              <a href="#" class="btn btn-primary">Consultar</a>
             </div>
+          </div>
+
+        <!-- PRODUCTO 3 -->
+            <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/featured-product4.jpg" alt="Smart TV">
+              <div class="card-body">
+                <h5 class="card-title">Smart TV Kanji 50 pulgadas 4k</h5>
+                <p class="card-text">El Smart TV Kanji de 50 pulgadas posee una pantalla de visualización con formato widescreen 16:9 y resolución 4K (3840 x 2160 píxeles) 
+                que brinda una gran calidad de imagen y contraste.</p>
+                <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+            <!-- PRODUCTOS / SECCION 2 -->
+
+  <h2 class="text-white text-center py-5 bg-dark w-100">Ultimos pedidos</h2>
+
+    <div data-aos="zoom-in">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center">
+
+              <!-- PRODUCTO 1 -->
+
+          <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/products/gamingmonitor.jpg" alt="Monitor Asus">
+              <div class="card-body">
+                <h5 class="card-title">Asus VG278QR 27” 1080P Full HD, 165Hz</h5>
+                <p class="card-text">Monitor de gaming Full HD de 27” con 144 Hz de refresco y Adaptive-Sync para unos gráficos perfectos
+                Certificado como compatible con G-SYNC, ofrece una experiencia de juego sin interrupciones al habilitar el VRR (tasa de actualización variable) de forma predeterminada.
+                0,5 ms* de tiempo de respuesta para una mayor fluidez y ASUS Extreme Low Motion Blur (ELMB) para que las escenas borrosas cobren nitidez.</p>
+                <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+          </div>
+    
+    
+              <!-- PRODUCTO 2 -->
+
+            <div class="card m-3" style="width: 18rem;">
+              <img class="card-img-top" src="../images/products/xiaomi10.jpg" alt="Xiaomi MI 10">
+                <div class="card-body">
+                  <h5 class="card-title">Smartphone Xiaomi Mi 10</h5>
+                  <p class="card-text">
+                  La serie Mi 10 establece el punto de referencia para el rendimiento de la próxima generación. 
+                  Experimenta una potencia y eficacia extremas con la tecnología de RAM LPDDR5 y ROM UFS 3.0, impulsada por el procesador de Qualcomm Snapdragon 865. 
+                  Ya sea en el día a día o jugando, superará todas tus expectativas. Las velocidad de descarga súper rápida es solo el comienzo.
+                  Dí hola al standard de red más inteligente, fuerte, con mayor seguridad, estabilidad y confiabilidad.</p>
+                  <a href="#" class="btn btn-primary">Consultar</a>
+                </div>
+            </div>
+
+              <!-- PRODUCTO 3 -->
+              <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top" src="../images/products/ram.png" alt="Ram Corsair">
+                  <div class="card-body">
+                    <h5 class="card-title">Memorias Ram Corsair Vengeance RGB DDR4 3600 MHZ</h5>
+                    <p class="card-text">La memoria con overclocking DDR4 CORSAIR VENGEANCE RGB PRO Series ilumina el PC con un efecto hipnótico
+                    gracias a la iluminación dinámica RGB direccionable de forma individual, además de ofrecer las mejores características de las DDR4 en cuanto a rendimiento.</p>
+                    <a href="#" class="btn btn-primary">Consultar</a>
+                  </div>
+              </div>
+
+        </div>
+      </div>
+    </div>
+
+            <!-- PRODUCTOS / SECCION 3 -->
+
+  <h2 class="text-white text-center py-5 bg-dark w-100">Proximamente...</h2>
+
+    <div data-aos="zoom-in">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-center">
+
+              <!-- PRODUCTO 1 -->
+          <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/products/ps5.png" alt="Playstation">
+              <div class="card-body">
+                <h5 class="card-title">Playstation 5 Standard Edition Dualshock 5</h5>
+                <p class="card-text">Experimenta una velocidad sorprendente con una SSD de velocidad ultrarrápida, una inmersión más profunda con soporte para respuesta háptica, gatillos adaptables y audio 3D1, además de una generación completamente nueva de juegos de PlayStation.</p>
+                <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+          </div>
+    
+    
+              <!-- PRODUCTO 2 -->
+          <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/products/rtx3060.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">GPU Gigabyte RTX 3060</h5>
+                  <p class="card-text">La GeForce RTX™ 3060 Ti y la RTX 3060 te permiten disfrutar de los juegos más recientes con la potencia de Ampere, la segunda generación de la arquitectura RTX de NVIDIA.
+                  Logra un rendimiento increíble con los Núcleos Ray Tracing y los Núcleos Tensor mejorados, los nuevos multiprocesadores de streaming y la memoria G6 de alta velocidad.</p>
+                  <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+          </div>
+
+              <!-- PRODUCTO 3 -->
+          <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="../images/products/i9.jpg" alt="Intel I9">
+              <div class="card-body">
+                <h5 class="card-title">Procesador Intel I9 10900K</h5>
+                <p class="card-text">El Intel Core i9 10900K es el procesador más potente que podemos encontrar ahora mismo dentro del catálogo de consumo general del gigante del chip.
+                Los diez núcleos que integra el Intel Core i9 10900K pueden trabajar con diez procesos, y gracias a la inclusión de la tecnología HyperThreading cada núcleo puede trabajar también en un subproceso, lo que nos deja ese total de 10 núcleos y 20 hilos.</p>
+                <a href="#" class="btn btn-primary">Consultar</a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+ </section>
+ 
+  <!-- FOOTER -->
+
+  <footer class="bg-dark text-light py-3 border border-dark">
+    <nav class="container">
+
+      <div class="row d-flex align-items-center">
+
+        <div class="col-12 col-md-3 mb-3">
+          <p>
+            Powered by Bootstrap <i class="bi bi-bootstrap-fill"></i>
+          </p>
+          <p class="h5">2021 - Todos los derechos reservados</p>
+          <p>La casa se reserva el derecho de aceptar los pedidos, garantía y devolución si no se cumplen las condiciones pactadas.</p>
+  
         </div>
 
 
-  <!-- FOOTER -->
+        <div class="col-12 col-md-3 mb-3">
+          <ul class="pl-3 ml-md-5">
+           <li><a href="" class="text-reset">Index</a></li>
+            <li><a href="" class="text-reset">¿Quienes Somos?</a></li>
+            <li><a href="" class="text-reset">FAQ</a></li>
+            <li><a href="" class="text-reset">Productos</a></li>
+            <li><a href="" class="text-reset">Contactanos</a></li>
+          </ul>
+        </div>
 
-    <footer class="bg-dark text-light footer">
-        <p class="footer__text">Bit importaciones 2020-2021</p>
-        <p class="footer__text">Siguenos en nuestras redes sociales</p>
-            <div class="footer__social">
-             <i class="bi bi-facebook"></i>
-             <i class="bi bi-twitter"></i>
+        <div class="col-12 col-md-3 mb-5">
+          <i class="bi bi-box"> Bit importaciones 	&#169;</i>
+          <p>Nuestras redes sociales</p>
+            <div class="footer__social d-flex flex-nowrap justify-content-start">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
               <i class="bi bi-instagram"></i>
             </div>
-    </footer>
-    
+        </div>
+
+        <div class="col-12 col-md-2 mb-3 text-white">
+
+          <p class="h5">Web creada por Franco Settembrini</p>
+          <p>Más sobre mi:</p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/franco-settembrini-61306a156/" target="_blank" class="text-reset">LinkedIn</a></li>
+            <li><a href="https://github.com/francosettem" target="_blank" class="text-reset">GitHub</a></li>
+            <li><a href="https://www.coderhouse.com/" target="_blank" class="text-reset">CoderHouse</a></li>
+          </ul>
+  
+        </div>
+
+      </div>
+
+    </nav>
+  </footer>
   
   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

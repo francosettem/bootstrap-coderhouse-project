@@ -1,23 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 $fonth1: 'Roboto', sans-serif;
-$fonth2c: celeste;
-
-h1 {
-    text-transform: capitalize;
-    @if $fonth2c == celeste {
-        color: #1266F1;
-    }
-    @else if color == azul {
-        color: blue;
-    }
-    @else {
-        color: black;
-    }
-}
 
 h2 {
     font-family: $fonth1;
-    text-transform: capitalize;
-    color:#1266F1;
 }

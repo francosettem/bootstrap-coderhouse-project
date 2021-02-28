@@ -19,7 +19,7 @@
   <!-- NAVBAR -->
 
   <nav class="navbar navbar-dark bg-dark navbar-collapse navbar-expand-lg">
-    <a class="navbar-brand animate__bounceIn" href="#">Bit Importaciones</a>
+    <a class="navbar-brand animate__bounceIn" href="../index.html">Bit Importaciones</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,15 +36,20 @@
   </nav>
 
   <!-- BANNER -->
-
-  <img src="../images/views-img/contactus.jpg" alt="Contactanos" class="w-100 d-block">
-
+  <div class="carousel-inner">
+    <img src="../images/views-img/contactus.jpg" alt="Contactanos" class="imagen1 w-100">
+    <img src="../images/views-img/contactus2.jpg" alt="Contactanos" class="imagen2 w-100">
+    <div class="carousel-caption animate__animated animate__backInDown">
+    <h3>Contactanos</h3>
+    <p>Realizá tu pedido o deja que resolvamos tus dudas.</p>
+    </div>
+  </div>
   <!-- FORMULARIO -->
 
   <section class="py-5">
     <div class="container">
-      <h1 class="text-center">Contactanos</h1>
-
+      <h1 class="text-center text-primary display-4">Quiero que me contacten</h1>
+      <p class="text-center text-primary h6 py-5">Completa el siguiente formulario con tus datos</p>
         <form>
           <div class="form-group">
           <label for="nombre">Tu nombre</label>
@@ -71,18 +76,18 @@
           <label for="msj">Mensaje</label>
           <textarea class="form-control" id="msj" rows="3"></textarea>
           </div>
-
+          <button type="submit" class="btn btn-outline-primary btn-block">Enviar</button>
         </form>
 
     </div>
   </section>
 
-  <!-- CONTACTANOS -->
+  <!-- CONTACTANOS EN REDES SOCIALES -->
 
   <section class="pb-5">
+    <h1 class="text-center text-primary display-4">Contactanos en nuestras redes</h1>
     <div class="container">
       <div  class="social">
-        <h2 class="text-center py-2">Contactanos En Redes Sociales</h2>
           <div class="social__icons">
             <i class="bi bi-facebook"></i>
             <i class="bi bi-twitter"></i>
@@ -95,15 +100,57 @@
 
   <!-- FOOTER -->
 
-  <footer class="bg-dark text-light footer">
-    <p class="footer__text">Bit importaciones 2020-2021</p>
-    <p class="footer__text">Siguenos en nuestras redes sociales</p>
-      <div class="footer__social">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-instagram"></i>
+  <footer class="bg-dark text-light py-3 border border-dark">
+    <nav class="container">
+
+      <div class="row d-flex align-items-center">
+
+        <div class="col-12 col-md-3 mb-3">
+          <p>
+            Powered by Bootstrap <i class="bi bi-bootstrap-fill"></i>
+          </p>
+          <p class="h5">2021 - Todos los derechos reservados</p>
+          <p>La casa se reserva el derecho de aceptar los pedidos, garantía y devolución si no se cumplen las condiciones pactadas.</p>
+  
+        </div>
+
+
+        <div class="col-12 col-md-3 mb-3">
+          <ul class="pl-3 ml-md-5">
+           <li><a href="" class="text-reset">Index</a></li>
+            <li><a href="" class="text-reset">¿Quienes Somos?</a></li>
+            <li><a href="" class="text-reset">FAQ</a></li>
+            <li><a href="" class="text-reset">Productos</a></li>
+            <li><a href="" class="text-reset">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <i class="bi bi-box"> Bit importaciones 	&#169;</i>
+          <p>Nuestras redes sociales</p>
+            <div class="footer__social d-flex flex-nowrap justify-content-start">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-instagram"></i>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-2 mb-3 text-white">
+
+          <p class="h5">Web creada por Franco Settembrini</p>
+          <p>Más sobre mi:</p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/franco-settembrini-61306a156/" target="_blank" class="text-reset">LinkedIn</a></li>
+            <li><a href="https://github.com/francosettem" target="_blank" class="text-reset">GitHub</a></li>
+            <li><a href="https://www.coderhouse.com/" target="_blank" class="text-reset">CoderHouse</a></li>
+          </ul>
+  
+        </div>
+
       </div>
-    </footer>
+
+    </nav>
+  </footer>
     
   
   
